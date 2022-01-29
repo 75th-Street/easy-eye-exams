@@ -1,7 +1,16 @@
-.App {
-  text-align: center;
-}
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  }
+  
+  .row-1 { grid-area: 3 / 3 / 4 / 4; }
+  .row-2 { grid-area: 2 / 3 / 3 / 4; }
+  .row-3 { grid-area: 2 / 2 / 3 / 3; }
 
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+ 
